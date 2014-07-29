@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <groupId>nl.sijpesteijn</groupId>
+    <artifactId>ilda</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>ILDA library</name>
+    <description>Library to read and write ilda files.</description>
+
+    <url>https://github.com/sijpesteijn/ilda</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>Sijpesteijn</id>
+            <name>Gijs Sijpesteijn</name>
+            <url>http://www.sijpesteijn.nl</url>
+            <email>gijs@sijpesteijn.nl</email>
+            <roles>
+                <role>Lead Developer</role>
+            </roles>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <url>https://github.com/sijpesteijn/ilda/issues</url>
+        <system>Github</system>
+    </issueManagement>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:sijpesteijn/ilda.git</developerConnection>
+        <connection>scm:git:git@github.com:sijpesteijn/ilda.git</connection>
+        <url>git://github.com/sijpesteijn/ilda.git</url>
+    </scm>
+
+
+</project>
